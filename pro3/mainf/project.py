@@ -128,7 +128,7 @@ Reference content (if any):
     with open("script.js", "w", encoding="utf-8") as f:
         f.write(js_code)
 
-    
+   
     with zipfile.ZipFile("website.zip", "w", zipfile.ZIP_DEFLATED) as zipf:
         zipf.write("index.html")
         zipf.write("style.css")
